@@ -1,10 +1,11 @@
 package org.example.Lesson_2
 
 fun main() {
-    val first: Float = 3f
-    val second: Float = 4f
-    val third: Float = 3f
-    val fourth: Float = 5f
-    val average: Float = (first + second + third + fourth) / 4
+    val first: Byte = 3
+    val second: Byte = 4
+    val third: Byte = 3
+    val fourth: Byte = 5
+    val quantityChildren: Byte = 4
+    val average: Int = (first + second + third + fourth) / quantityChildren
     println(average)
 }
