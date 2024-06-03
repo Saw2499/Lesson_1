@@ -8,7 +8,7 @@ fun main() {
     val onePercentCrystal: Float = crystalOreMined / MAXIMUM_PERCENT
     val onePercentIron: Float = ironOreMined / MAXIMUM_PERCENT
     val bonusCrystalOreMined = (onePercentCrystal * BUFF_PERCENT).roundToInt()
-    val bonusIronOreMined = (onePercentIron * BUFF_PERCENT).roundToInt()
+    val bonusIronOreMined = (onePercentIron * BUFF_PERCENT).toInt()
 
     println("Бонус кристаллической руды: $bonusCrystalOreMined")
     println("Бонус железной руды: $bonusIronOreMined")
