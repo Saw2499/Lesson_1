@@ -11,7 +11,7 @@ fun main() {
     val arriveMinute = minutesOutHour - minutesInHour //Сколько минут в остатке при превышении часа (16)
     val hourInOutOfHour = minutesOutHour / minutesInHour //Сколько часов в остатке из минут (1)
     val arriveHour = startHour + hoursOnWay + hourInOutOfHour
-    println("Время прибытия поезда: $arriveHour:$arriveMinute")
+    println("Время прибытия: $arriveHour:$arriveMinute")
 
 }
 
