@@ -4,9 +4,9 @@ fun main() {
     var greeting = "Добрый день"
     val userName = "Пользователь"
 
-    println("$greeting,$userName!")
+    println("$greeting, $userName!")
 
     greeting = "Добрый вечер"
 
-    println("$greeting,$userName!")
+    println("$greeting, $userName!")
 }
